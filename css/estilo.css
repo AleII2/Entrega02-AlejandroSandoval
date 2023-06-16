@@ -206,6 +206,20 @@ section h2{
     .menu_burger{
         display: inline;
     }
+    .nav-item:hover{
+        background: rgb(255,192,0);
+        background: radial-gradient(circle, rgba(255,192,0,1) 59%, rgba(255,173,0,1) 82%);
+        border-radius: 10px;
+        color: coral;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nav-link.active:hover{
+        color: rgb(255, 68, 0);
+    }
+    .nav-link:hover{
+        color: rgb(255, 68, 0);
+    }
     .header{
         display: none;
     }
@@ -251,8 +265,7 @@ section h2{
         width: 350px;
         margin: 0px;
         margin-left: 12px;
-        font-size: 16px;
-        
+        font-size: 16px;  
     }
     h3{
         font-size: 23px;
@@ -271,12 +284,6 @@ section h2{
         width: 350px;
         border-radius: 20px;
     }
-    
-    
-
-
-    
-
 }
 
 
@@ -339,8 +346,9 @@ header nav ul li a{
 .img_mejoras{
     margin-top: 20px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     row-gap: 5px;
+   
 }
 main div img{
     border-radius: 20px;
@@ -352,6 +360,32 @@ main div img{
     text-align: center;
     margin-left: 28.5%;
     margin-top: 50px;
+}
+@media(max-width:576px){
+    .subtitulo{
+        width: 350px;
+        margin-left: 12px;
+    }
+    .texto02{
+        width: 350px;
+        margin-left: 12px;
+    }
+    main div img{
+        width: 350px;
+    }
+    .img_mejoras{
+        width:350 ;
+    }
+    .texto03{
+        width: 350px;
+        margin-left: 0;
+    }
+    .texto03 h2{
+        margin-left: 20px;
+    }
+    .texto03 video{
+        width: 350px;
+    }
 }
 
 /* Jugadores */
@@ -402,5 +436,6 @@ main section img{
     #nav02{
         display: none;
     }
+
    
 }
