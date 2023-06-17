@@ -109,6 +109,7 @@ h3::selection{
 .h2{
     margin-top: 100px;
     font-size: 30px;
+    font-family: sans-serif;
 }
 .punto p{
     width: 900px;
@@ -367,17 +368,38 @@ main div img{
 .texto03{
     width: 900px;
     text-align: center;
-    margin-left: 28.5%;
+    margin-left: 26%;
     margin-top: 50px;
 }
+.video_mejoras{
+    width: 1100px;
+    height: 800px;
+}
 @media(max-width:576px){
+    .iframe_mejoras{
+        width: 350px;
+        margin-left: 0;
+    }
+    .titulo_mejoras{
+        font-size: 32px;
+    }
     .subtitulo{
         width: 350px;
         margin-left: 12px;
+        font-size: 27px;
     }
     .texto02{
         width: 350px;
         margin-left: 12px;
+
+    }
+    .h2_mejoras{
+        font-size: 23px;
+        margin-left: 10px;
+    }
+    .parrafos_mejoras{
+        font-size: 16px;
+        margin-left: 10px;
     }
     main div img{
         width: 350px;
@@ -392,9 +414,11 @@ main div img{
     .texto03 h2{
         margin-left: 20px;
     }
-    .texto03 video{
+    .video_mejoras{
         width: 350px;
+        height: 200px; 
     }
+    
 }
 
 /* Jugadores */
