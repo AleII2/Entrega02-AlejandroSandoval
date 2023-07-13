@@ -1,0 +1,45 @@
+.footer{
+    background-color:nth($color, $n: 5 );
+    text-align: nth($text, $n: 1 );
+    height: 180px;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "ul"
+    "copy"
+    "ul_footer";
+    font-family: nth($family, $n: 1);
+    font-size: 15px;
+    margin-top: 120px;
+}
+.ul{
+    grid-area: ul;
+    list-style: none;
+    display: flex;
+    justify-content: nth($justify, $n: 1);
+    align-items: nth($align, $n: 1 );
+    margin-top: 20px;
+}
+.copy{
+    margin-top: 20px;
+    grid-area: copy;
+    align-items: nth($align, $n: 1 );
+    justify-content:nth($justify, $n: 4);
+   
+}
+.ul_footer{
+    grid-area: ul_footer;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color:nth($color, $n: 6 );
+    padding: 15px;
+}
+.footer a:hover{
+    color: nth($color, $n: 3 );
+    background-color: nth($color, $n: 4 );
+    padding: 15px;
+    border-radius: 15px;
+}

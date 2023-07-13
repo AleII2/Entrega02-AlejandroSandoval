@@ -1,0 +1,172 @@
+.index{
+    margin-top: 950px;
+}
+.titulo_main_principal{
+    display: flex;
+    justify-content: nth($justify, $n: 4 );
+    align-items: nth($align, $n: 1);
+}
+.titulo_main{
+    text-align: nth($align, $n: 1);
+    margin: 50px;
+    font-family: nth($family, $n: 1 );
+    font-size: nth($tamañoH1, $n: 1 );
+}
+.img_main{
+    width: 100px;
+}
+.parrafo_main{
+    width: 900px;
+    text-align: nth($text, $n: 1 );
+    margin: 20px auto;
+    font-size: 18px;
+}
+.iframe01{
+    display: flex;
+    justify-content: nth($justify, $n: 4 );
+    margin: 20px;
+    
+}
+.punto{
+    width: 900px;
+    text-align:nth($text, $n: 1 );
+    margin: 20px auto;
+    font-family: nth($family, $n: 2 );
+}
+.h2{
+    margin-top: 100px;
+    font-size: nth($tamañoH2, $n: 1 );
+    font-family: nth($family, $n: 1 );
+}
+.punto p{
+    width: 900px;
+    text-align: nth($text, $n: 1 );
+    margin: 20px auto;
+}
+main section p{
+    text-align: nth($text, $n: 1 );
+    font-family:nth($family, $n: 2 );
+    font-size: nth($tamañoP, $n: 1  );
+}
+.padre{
+    display: flex;
+    justify-content: nth($justify, $n: 3);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+h3{
+    text-align: nth($text, $n: 1 );
+    margin: 20px auto;
+    font-family:nth($family, $n: 2 );
+    font-size:nth($tamañoH3, $n: 1 );
+}
+.gif{
+    width: 450px;
+}
+main section div video{
+    border-radius: 20px;
+}
+section h2{
+    text-align: nth($text, $n: 1 );
+    font-family:nth($family, $n: 3);
+}
+
+// mejoras
+
+.main_mejoras{
+    padding-top: 10px;
+    text-align: nth($text, $n: 1 );
+ }
+ .titulo_mejoras{
+     font-family: nth($family, $n: 1 );
+     font-size: nth($tamañoH1, $n: 2 );
+     margin-top: 35px;
+ }
+ .subtitulo{
+     margin-left: 22%;
+     width: 1060px;
+     font-family: nth($family, $n: 1 );
+     font-size: nth($tamañoH2, $n: 1 );
+ }
+ .texto02{
+     margin-top: 110px;
+     width: 800px;
+     font-family: nth($family, $n: 1 );
+     text-align: nth($text, $n: 2);
+     margin-left: 307px;
+ }
+ .h2_mejoras{
+     font-size: nth($tamañoH2, $n: 2);
+     margin-top: 20px;
+ }
+ .parrafos_mejoras{
+     font-size: nth($tamañoP, $n: 1 );
+     margin-top: 20px;
+ }
+ .img_mejoras{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     row-gap: 5px;
+    
+ }
+ main div img{
+     border-radius: 20px;
+     width: 650px;
+     
+ }
+ .texto03{
+     width: 900px;
+     text-align: nth($text, $n: 1 );
+     margin-left: 26%;
+     margin-top: 50px;
+ }
+ .video_mejoras{
+     width: 1100px;
+     height: 800px;
+ }
+
+ /* Jugadores */
+
+.titulo_jugadores{
+    text-align: nth($text, $n: 1 );
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.jugadores{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: nth($align, $n: 1);
+    justify-content: nth($justify, $n: 4 );
+    padding: 25px;
+}
+
+.jugadores img{
+    width: 250px;
+    height: 250px;
+}
+.contenido_jugadores{
+    width: 55%;
+    margin-left: 50px;
+    text-align: nth($text, $n: 3);
+
+}
+.contenido_jugadores h2{
+    display: inline-block;
+    text-align: nth($text, $n: 3);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: nth($family, $n: 1);
+}
+.contenido_jugadores p{
+    display: inline-block;
+    text-align: nth($text, $n: 3);
+    font-size:nth($tamañoP, $n:2 );
+    font-family: nth($family, $n:1 );
+    
+}
+main section img{
+    border-radius: 20px;
+}
