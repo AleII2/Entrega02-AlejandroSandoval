@@ -1,3 +1,4 @@
+// ---------------inicio----------------
 .index{
     margin-top: 950px;
 }
@@ -5,13 +6,14 @@
     display: flex;
     justify-content: nth($justify, $n: 4 );
     align-items: nth($align, $n: 1);
+    .titulo_main{
+        text-align: nth($align, $n: 1);
+        margin: 50px;
+        font-family: nth($family, $n: 1 );
+        font-size: nth($tamañoH1, $n: 1 );
+    }
 }
-.titulo_main{
-    text-align: nth($align, $n: 1);
-    margin: 50px;
-    font-family: nth($family, $n: 1 );
-    font-size: nth($tamañoH1, $n: 1 );
-}
+
 .img_main{
     width: 100px;
 }
@@ -37,12 +39,13 @@
     margin-top: 100px;
     font-size: nth($tamañoH2, $n: 1 );
     font-family: nth($family, $n: 1 );
+    .punto p{
+        width: 900px;
+        text-align: nth($text, $n: 1 );
+        margin: 20px auto;
+    }
 }
-.punto p{
-    width: 900px;
-    text-align: nth($text, $n: 1 );
-    margin: 20px auto;
-}
+
 main section p{
     text-align: nth($text, $n: 1 );
     font-family:nth($family, $n: 2 );
@@ -71,62 +74,63 @@ section h2{
     font-family:nth($family, $n: 3);
 }
 
-// mejoras
+// ------------mejoras--------------
 
 .main_mejoras{
     padding-top: 10px;
     text-align: nth($text, $n: 1 );
  }
  .titulo_mejoras{
-     font-family: nth($family, $n: 1 );
-     font-size: nth($tamañoH1, $n: 2 );
-     margin-top: 35px;
+    font-family: nth($family, $n: 1 );
+    font-size: nth($tamañoH1, $n: 2 );
+    margin-top: 35px;
  }
  .subtitulo{
-     margin-left: 22%;
-     width: 1060px;
-     font-family: nth($family, $n: 1 );
-     font-size: nth($tamañoH2, $n: 1 );
+    margin-left: 22%;
+    width: 1060px;
+    font-family: nth($family, $n: 1 );
+    font-size: nth($tamañoH2, $n: 1 );
  }
  .texto02{
-     margin-top: 110px;
-     width: 800px;
-     font-family: nth($family, $n: 1 );
-     text-align: nth($text, $n: 2);
-     margin-left: 307px;
+    margin-top: 110px;
+    width: 800px;
+    font-family: nth($family, $n: 1 );
+    text-align: nth($text, $n: 2);
+    margin-left: 307px;
  }
  .h2_mejoras{
-     font-size: nth($tamañoH2, $n: 2);
-     margin-top: 20px;
+    font-size: nth($tamañoH2, $n: 2);
+    margin-top: 20px;
+    .parrafos_mejoras{
+    font-size: nth($tamañoP, $n: 1 );
+    margin-top: 20px;
+    }
  }
- .parrafos_mejoras{
-     font-size: nth($tamañoP, $n: 1 );
-     margin-top: 20px;
- }
+ 
  .img_mejoras{
-     margin-top: 20px;
-     display: flex;
-     flex-direction: column;
-     row-gap: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    img{
+    border-radius: 20px;
+    width: 650px;
+        
+    }
     
  }
- main div img{
-     border-radius: 20px;
-     width: 650px;
-     
- }
  .texto03{
-     width: 900px;
-     text-align: nth($text, $n: 1 );
-     margin-left: 26%;
-     margin-top: 50px;
+    width: 900px;
+    text-align: nth($text, $n: 1 );
+    margin-left: 26%;
+    margin-top: 50px;
  }
  .video_mejoras{
-     width: 1100px;
-     height: 800px;
+    width: 1100px;
+    height: 800px;
  }
 
- /* Jugadores */
+ /* ------------Jugadores------------- */
 
 .titulo_jugadores{
     text-align: nth($text, $n: 1 );
@@ -141,31 +145,28 @@ section h2{
     align-items: nth($align, $n: 1);
     justify-content: nth($justify, $n: 4 );
     padding: 25px;
-}
-
-.jugadores img{
-    width: 250px;
-    height: 250px;
+    img{
+        width: 250px;
+        height: 250px;
+    }
 }
 .contenido_jugadores{
     width: 55%;
     margin-left: 50px;
     text-align: nth($text, $n: 3);
-
-}
-.contenido_jugadores h2{
+    h2{
     display: inline-block;
     text-align: nth($text, $n: 3);
     text-transform: uppercase;
     font-size: 30px;
     font-family: nth($family, $n: 1);
+    p{
+        display: inline-block;
+        text-align: nth($text, $n: 3);
+        font-size:nth($tamañoP, $n:2 );
+        font-family: nth($family, $n:1 );
+    }
 }
-.contenido_jugadores p{
-    display: inline-block;
-    text-align: nth($text, $n: 3);
-    font-size:nth($tamañoP, $n:2 );
-    font-family: nth($family, $n:1 );
-    
 }
 main section img{
     border-radius: 20px;

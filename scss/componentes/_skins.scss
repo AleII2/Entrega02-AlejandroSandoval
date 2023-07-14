@@ -1,0 +1,36 @@
+// ----------------skins--------------
+.titulo_skins{
+   width: 500px;
+   margin: 0 auto;
+   margin-top: 40px;
+   text-align: center;
+   font-size: nth($tamañoH1, $n: 1 );
+   font-family: nth($family, $n: 3);
+   
+}
+.parrafo_skins{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: nth($tamañoP, $n: 2 );
+   font-family: nth($family, $n: 3);
+}
+.skins{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+
+}
+.img_skins{
+    margin: 100px;
+    div{
+        display: contents;      
+    }
+    img{
+        border-radius: 20px;
+
+    }
+    
+    
+}

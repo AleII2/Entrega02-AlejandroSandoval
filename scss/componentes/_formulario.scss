@@ -1,0 +1,45 @@
+.register{
+    width: 400px;
+    background: nth($color, $n: 8 );
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: nth($family, $n: 1 );
+    color: nth($color, $n: 7 );
+    box-shadow: 7px 13px 37px nth($color, $n: 6);
+    .controls{
+        width: 100%;
+        background: nth($color, $n: 8);
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 16px;
+        border: 1px solid nth($color, $n: 9);
+        font-family: nth($family, $n: 1 );
+        font-size: nth($tamañoP, $n: 1);
+        color: nth($color, $n: 7);
+    }
+    h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    p{
+       height: 40px;
+       text-align: nth($text, $n: 1) ; 
+       font-size: nth($tamañoP, $n: 1 );
+    }
+    a:hover{
+        color: nth($color, $n: 7);
+        text-decoration: underline;
+    }
+    .botons{
+        width: 100%;
+        background: nth($color, $n: 9);
+        border: none;
+        padding: 12px;
+        color: nth($color, $n: 7);
+        margin: 16px 0;
+        font-size: 16px;
+    }
+}
+

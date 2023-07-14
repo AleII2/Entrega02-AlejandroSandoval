@@ -5,3 +5,19 @@
 body{
     background-color: nth($color, $n:1 );
 }
+p::selection{
+    background-color: rgb(75, 92, 107) ;
+    color: rgb(0, 0, 0);
+}
+h1::selection{
+    background-color: rgb(75, 92, 107) ;
+    color: rgb(0, 0, 0);
+}
+h2::selection{
+    background-color: rgb(75, 92, 107) ;
+    color: rgb(0, 0, 0);
+}
+h3::selection{
+    background-color: rgb(75, 92, 107) ;
+    color: rgb(0, 0, 0);
+}

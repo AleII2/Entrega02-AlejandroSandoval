@@ -3,6 +3,7 @@
     justify-content: nth($justify, $n: 1 );
     align-items: nth($align, $n: 1 );
     justify-content: nth($justify, $n: 2 );
+    
 }
 .nav{
     list-style: none;
@@ -11,17 +12,18 @@
     padding: 10px;
     border-radius: 15px;
 }
-nav ul{
+ul{
     display: flex;
     justify-content: nth($justify, $n: 1 );
     align-items: nth($justify, $n: 1 );
+    a{
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 25px;
+        color: white;
+    }
 }
-.nav a{
-    text-decoration: none;
-    color: nth($color, $n: 7);
-    margin-left: 10px;
-    padding: 25px;
-}
+
 .nav a:hover{
     color: rgb(231, 120, 80);
     background-color: rgb(63, 77, 88);
@@ -37,12 +39,15 @@ nav ul{
     
 }
 #nav02 a:hover{
-    color: white;
-
+    color: rgb(0, 0, 0);
+    background-color: rgb(144, 108, 7);
+    padding: 14px 25px;
+    border-radius: 15px;
+    margin-left: 10px;    
     
 }
 header nav ul li a{
-    color: black;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-size: nth($tamañoP, $n: 2 );
     font-family:nth($family, $n: 1);
