@@ -13,6 +13,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,800&family=Roboto+Slab:wght@100;400;900&family=Roboto:ital,wght@0,100;1,400&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../scss/style.css">
     <title>CS:GO2</title>
 </head>
@@ -59,69 +61,84 @@
             </ul>
         </nav>
     </header>
-        <main>
+    <main>
+        <div data-aos="zoom-in">
             <h1 class="titulo_skins">
                 TUS ARTÍCULOS BAJO UNA NUEVA LUZ
             </h1>
             <p class="parrafo_skins">
                 Tráete todo tu inventario de CS:GO a Counter‑Strike 2. No solo conservarás todos los artículos que has ido coleccionando a lo largo de los años, sino que estos se verán aún mejor con la iluminación y los materiales de Source 2.
-
+    
                 Además de ser compatibles con los modelos y acabados clásicos, todas las armas de serie se han mejorado con modelos de alta resolución, y algunos acabados de arma aprovechan estos nuevos modelos.
             </p>
+        </div>
+        <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
             <video class="skins" src="../imagenes/weapons.mp4" width="1060" height="615" autoplay loop></video>
-            <div class="img_skins">
-                <div>
-                    <img src="../imagenes/ak1.jpg" width="420px" alt="">
-                    <img src="../imagenes/ak2.jpg" width="420px" alt="">
-                    <img src="../imagenes/ak3.jpg" width="420px" alt="">
-                    <img src="../imagenes/ak4.jpg" width="420px" alt="">
-                    <img src="../imagenes/ak5.jpg" width="420px" alt="">
-                    <img src="../imagenes/ak6.jpg" width="420px" alt="">
-                </div>
-                <div>
-                    <img src="../imagenes/ap1.jpg" width="420px" alt="">
-                    <img src="../imagenes/ap2.jpg" width="420px" alt="">
-                </div>
-                <div>
-                    <img src="../imagenes/dk1.jpg" width="420px" alt="">
-                    <img src="../imagenes/dk2.jpg" width="420px" alt="">
-                    <img src="../imagenes/dk3.jpg" width="420px" alt="">
+        </div>
 
-                </div>
-                <div>
-                    <img src="../imagenes/faka1.jpg" width="420px" alt="">
-                    <img src="../imagenes/faka2.jpg" width="420px" alt="">
-                    <img src="../imagenes/faka3.jpg" width="420px" alt="">
-                    <img src="../imagenes/faka4.jpg" width="420px" alt="">
-                    <img src="../imagenes/faka5.jpg" width="420px" alt="">
-                    <img src="../imagenes/faka6.jpg" width="420px" alt="">
-                </div>
-                <div>
-                    <img src="../imagenes/m4a1.jpg" width="420px" alt="">
-                    <img src="../imagenes/m2a2.jpg" width="420px" alt="">
-                    <img src="../imagenes/m4a3.jpg" width="420px" alt="">
-                    <img src="../imagenes/m4a4.jpg" width="420px" alt="">
-                    <img src="../imagenes/m4a5.jpg" width="420px" alt="">
-                </div>
-                <div>
-                    <img src="../imagenes/p250.jpg" width="420px" alt="">
-                    <img src="../imagenes/usp.jpg" width="420px" alt="">
-                </div>
-             </div>
-        </main>
-        <footer class="footer">
-            <ul class="ul">
-                <li><a href="https://www.instagram.com/alee_ssandoval/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/alejandro-sandoval-01972a280/" target="_blank">Likedin</a></li>
-                <li><a href="https://www.facebook.com/alee.carp.9809" target="_blank">Facebook</a></li>
-            </ul>
-            <p class="copy">Copyright©2023 AlejandroSandoval.</p>
-            <a class="ul_footer" href="https://steamcommunity.com/faqs/steam-help/view/5ED2-ED8E-81F4-0C18" target="_blank">Preguntas
-                Frecuentes</a>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        
+        <div class="img_skins">
+            <div>
+                <img src="../imagenes/ak1.jpg" width="420px" alt="">
+                <img src="../imagenes/ak2.jpg" width="420px" alt="">
+                <img src="../imagenes/ak3.jpg" width="420px" alt="">
+                <img src="../imagenes/ak4.jpg" width="420px" alt="">
+                <img src="../imagenes/ak5.jpg" width="420px" alt="">
+                <img src="../imagenes/ak6.jpg" width="420px" alt="">
+            </div>
+            <div>
+                <img src="../imagenes/ap1.jpg" width="420px" alt="">
+                <img src="../imagenes/ap2.jpg" width="420px" alt="">
+            </div>
+            <div>
+                <img src="../imagenes/dk1.jpg" width="420px" alt="">
+                <img src="../imagenes/dk2.jpg" width="420px" alt="">
+                <img src="../imagenes/dk3.jpg" width="420px" alt="">
+
+            </div>
+            <div>
+                <img src="../imagenes/faka1.jpg" width="420px" alt="">
+                <img src="../imagenes/faka2.jpg" width="420px" alt="">
+                <img src="../imagenes/faka3.jpg" width="420px" alt="">
+                <img src="../imagenes/faka4.jpg" width="420px" alt="">
+                <img src="../imagenes/faka5.jpg" width="420px" alt="">
+                <img src="../imagenes/faka6.jpg" width="420px" alt="">
+            </div>
+            <div>
+                <img src="../imagenes/m4a1.jpg" width="420px" alt="">
+                <img src="../imagenes/m2a2.jpg" width="420px" alt="">
+                <img src="../imagenes/m4a3.jpg" width="420px" alt="">
+                <img src="../imagenes/m4a4.jpg" width="420px" alt="">
+                <img src="../imagenes/m4a5.jpg" width="420px" alt="">
+            </div>
+            <div>
+                <img src="../imagenes/p250.jpg" width="420px" alt="">
+                <img src="../imagenes/usp.jpg" width="420px" alt="">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="ul">
+            <li><a href="https://www.instagram.com/alee_ssandoval/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/alejandro-sandoval-01972a280/" target="_blank">Likedin</a></li>
+            <li><a href="https://www.facebook.com/alee.carp.9809" target="_blank">Facebook</a></li>
+        </ul>
+        <p class="copy">Copyright©2023 AlejandroSandoval.</p>
+        <a class="ul_footer" href="https://steamcommunity.com/faqs/steam-help/view/5ED2-ED8E-81F4-0C18" target="_blank">Preguntas Frecuentes</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+    </script>
+    <script>
+    AOS.init();
+    </script>
     
 </body>
 </html>
