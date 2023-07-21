@@ -1,3 +1,14 @@
 .menu_burger{
     display: none;
+    .container-fluid{
+        background: rgb(255,192,0);
+        background: radial-gradient(circle, rgba(255,192,0,1) 59%, rgba(255,173,0,1) 82%);
+    }
+    .navbar{
+        background: rgb(255,192,0);
+        background: radial-gradient(circle, rgba(255,192,0,1) 59%, rgba(255,173,0,1) 82%);
+    }
+}
+.nav-link{
+    text-align: center;
 }
